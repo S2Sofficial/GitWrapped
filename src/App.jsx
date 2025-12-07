@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <Analytics />
+     
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<GitWrappedApp />} />
