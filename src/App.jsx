@@ -7,9 +7,10 @@ function App() {
 
   return (
     <>
+      <Analytics />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={ <GitWrappedApp /> } />
+          <Route path="/" element={<GitWrappedApp />} />
         </Routes>
       </BrowserRouter>
     </>
